@@ -1,0 +1,33 @@
+
+//reset
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #2c2c2c;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: $fontNormal;
+   }
+
+section {
+  margin: 80px 0;
+}
+
+// mix
+
+.container {
+  margin: 0 auto;
+  max-width: $normalContainer;
+
+  &.container--small {
+    max-width: $smallContainer;
+  }
+}
+
+.text-center {
+  text-align: center;
+}

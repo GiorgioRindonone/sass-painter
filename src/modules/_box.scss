@@ -1,0 +1,32 @@
+.box {
+  display: flex;
+  align-items: center;
+  margin:100px 0;
+
+// modificatore
+  &.box-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .box-txt {
+    padding: 0 40px;
+  }
+  &-img{
+    width: 60%;
+
+    >img {
+      width: 100%;
+    }
+  }
+
+  &-txt{
+    width: 40%;
+  }
+
+  a {
+    color: $mainColor;
+    &:hover{
+      color:$mainColorDark;
+    }
+  }
+}
