@@ -7,7 +7,7 @@
 body {
   color: #2c2c2c;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 18px;
+
 }
 
 section {
@@ -42,9 +42,6 @@ p {
 }
 .box.box-reverse {
   flex-direction: row-reverse;
-}
-.box .box-txt {
-  padding: 0 40px;
 }
 .box-img {
   width: 60%;
