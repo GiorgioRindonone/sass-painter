@@ -7,7 +7,7 @@
 body {
   color: #2c2c2c;
   font-family: "Source Sans Pro", sans-serif;
-
+  font-size: 18px;
 }
 
 section {
@@ -26,9 +26,14 @@ section {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   font-size: 38px;
   font-weight: 600;
+}
+
+h5, h6 {
+  font-weight: 200;
+  font-size: 24px;
 }
 
 p {
@@ -42,6 +47,9 @@ p {
 }
 .box.box-reverse {
   flex-direction: row-reverse;
+}
+.box .box-txt {
+  padding: 0 40px;
 }
 .box-img {
   width: 60%;
@@ -57,6 +65,28 @@ p {
 }
 .box a:hover {
   color: #0d66d0;
+}
+
+.header-container {
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-header {
+  width: 60%;
+}
+
+.header-container img {
+  height: 50px;
+}
+
+button {
+  height: 40px;
+  width: 160px;
+  border-radius: 20px;
 }
 
 body {

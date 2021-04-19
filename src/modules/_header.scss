@@ -1,5 +1,15 @@
 .header-container {
-  background-image:image(../../poster.webp);
+  // background-image:image(../../poster.webp);
   background-size: cover;
   height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-header {
+  width: 60%;
+}
+.header-container img {
+  height: 50px;
 }
